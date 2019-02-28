@@ -1,0 +1,178 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------------------------------------RESET CSS------------------------------------------------------------------*/
+
+body {
+    overflow-x: hidden;
+    background-image: url(white.jpg);
+    background-size: cover;
+
+}
+
+
+
+.premierheader{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+.premierheader:hover{
+
+    background-color: black ; opacity: 0.7;
+}
+.deuxiemeheader {
+    width: 100%;
+    display: grid;
+    background-image:url("3d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow:  box-shadow: 10px 10px grey;
+}
+
+.texteduheader {
+    width: 500px;
+    height: 350px;
+    grid-column: 2 / 3;
+    margin-top: 22vh;
+    text-align: justify;
+}
+
+.texteduheader h1,p{
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 7px rgba(0,0,0, 0.5);
+}
+
+/*--------------------------------------------CONTAINER PRINCIPAL--------------------------------------------------*/
+
+
+.containerprincipal{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px auto;
+    background-color: RVB(127,159,255);
+    margin-top:14vh;
+}
+
+.container1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+    margin-left: 128px;
+
+}
+
+.container2 {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+    margin-left: 128px;
+}
+
+.container3 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+    margin-left: 128px;
+
+
+}
+
+.container4 {
+    grid-column : 2 / 2;
+    grid-row: 2 ;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+    margin-left: 128px;
+
+}
+
+.container5 {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+    margin-left: 128px;
+
+}
+
+.container6 {
+    grid-column: 2 / 2;
+    grid-row: 3;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0, 0.5);
+
+    margin-left: 128px;
+}
+
+.title {
+
+}
+
+.title2 {
+
+
+}
+
+.list{
+    line-height: 28px;
+    font-size: 17px;
+
+}
+
+
+
